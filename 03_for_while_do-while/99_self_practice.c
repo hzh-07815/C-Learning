@@ -15,18 +15,38 @@
     return 0;
 }*/
 
- int main()
- { 
+ //int main()
+// { 
     //int ch = 0;
     //while(getchar())
 /*int ch = gethchar();
     printf("%c\n", ch);//1
     putchar(ch);//2 */
 
-    int ch  = 0;
+   /* int ch  = 0;
     while ((ch = getchar()) != EOF)
     {
         putchar(ch);
     }
     return 0;
  }
+int main()
+{
+    int i = 1;//初始化
+    while(i<=10)//条件判断
+    {
+        printf("%d ", i);
+        i++;//调整
+    }
+    return 0;
+}*/
+
+int main()
+{
+    int i = 0;
+    for(i=1;i<=10;i++)
+    {
+        printf("%d ", i);
+    }
+    return 0;
+}
